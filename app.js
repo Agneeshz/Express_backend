@@ -6,7 +6,7 @@ const router = express.Router();
 app.use(express.static(__dirname + '/public_final'));
 
 router.get("/", function (req, res) {
-  res.send("Hello world");
+  res.send("Oops something went wrong! Unable to establish connection with the server");
 //   res.render(path.join(__dirname + "/index.html"));
   // _dirname : It will resolve to your project folder.
 });
