@@ -28,6 +28,6 @@ router.get("/3", function(req,res){
 
 // add the router
 app.use('/',router);
-app.listen(process.env.part || 3000);
+app.listen(process.env.PORT || 8080);
 
-console.log('Running at port 3000')
+console.log('Running at port 8080')
